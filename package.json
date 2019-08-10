@@ -1,0 +1,35 @@
+{
+  "name": "whatsapp-web",
+  "version": "1.0.0",
+  "description": "Inofficial WhatsApp Web API wrapper",
+  "main": "./lib/main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./",
+    "lint:fix": "eslint --fix ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimeForANinja/node-whatsapp-web.git"
+  },
+  "dependencies": {
+    "axlsign": "git+https://github.com/wavesplatform/curve25519-js.git",
+    "futoin-hkdf": "^1.0.3",
+    "ws": "^7.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "author": "Tobias Kutscha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimeForANinja/node-whatsapp-web/issues"
+  },
+  "homepage": "https://github.com/TimeForANinja/node-whatsapp-web#readme"
+}
